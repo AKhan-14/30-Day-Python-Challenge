@@ -1,0 +1,4 @@
+This is a sample file. It is a simple text file for a programming exercise.
+
+Programming is fun. Programming is also a challenge.
+The goal of this exercise is to count the words in this text. Simple, right?
