@@ -119,6 +119,6 @@ while lives > 0 and set(secret_word) != correct_guesses:
         lives -= 1
 
     if lives > 0 and set(secret_word) == correct_guesses:
-        print("Yh you won shun")
+        print(f"Nice you won, the word was '{secret_word}'")
     elif lives == 0:
         print(f"Unlucky buddy, the word was '{secret_word}'")
