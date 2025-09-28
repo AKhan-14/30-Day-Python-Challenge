@@ -83,11 +83,11 @@ while lives > 0:
 import random
 
 lives = 7
-# word_list = ["python","javascript","developer", "google"]
+word_list = ["python","javascript","developer", "google"]
 # print(random.choice(word_list))
 correct_guesses = set()
 incorrect_guesses = set()
-secret_word = "python"
+secret_word = random.choice(word_list)
 
 while lives > 0 and set(secret_word) != correct_guesses:
     display_list = []
@@ -114,7 +114,6 @@ while lives > 0 and set(secret_word) != correct_guesses:
 
     if guess in secret_word:
         correct_guesses.add(guess)
-        print(set(secret_word))
     elif guess not in secret_word:
         incorrect_guesses.add(guess)
         lives -= 1
