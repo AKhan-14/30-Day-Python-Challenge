@@ -111,7 +111,7 @@ while True:
                     print(f"You have successfully removed '{to_do_list.pop(remove_item)}' from the list. ")
                     break
                 else:
-                    print(f"The list is only {len(to_do_list)} task(s) long buddy, not {remove_item + 1}. ")
+                    print(f"The list is only {len(to_do_list)} task(s) long, not {remove_item + 1}. ")
             except ValueError:
                 print("That is not a number. Try again")
     else:
