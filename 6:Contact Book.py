@@ -17,9 +17,9 @@ contact_book = {
         "phone_number" : "7",
         "email" : "CR7@email.com"
     },
-    "Andrew Tate" : {
-        "phone_number" : "888",
-        "email" : "TopG@email.com"
+    "Thomas Shelby" : {
+        "phone_number" : "1",
+        "email" : "PeakyBlinder1@email.com"
     }
     "Nate Diaz" : {
         "phone_number" : "209"
@@ -42,9 +42,9 @@ contact_book = {
         "phone_number" : "7",
         "email" : "CR7@email.com"
     },
-    "Andrew Tate" : {
-        "phone_number" : "888",
-        "email" : "TopG@email.com"
+    "Thomas Shelby" : {
+        "phone_number" : "1",
+        "email" : "PeakyBlinder1@email.com"
     }
 }
 
