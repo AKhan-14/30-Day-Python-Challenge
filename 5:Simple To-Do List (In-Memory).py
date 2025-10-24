@@ -115,5 +115,5 @@ while True:
             except ValueError:
                 print("That is not a number. Try again")
     else:
-        print("That is NOT a valid command, try again. ")
+        print("That is NOT a valid command, you can either 'view', 'add', 'remove' or 'quit', try again. ")
         continue

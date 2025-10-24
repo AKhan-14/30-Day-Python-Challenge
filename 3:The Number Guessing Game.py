@@ -58,7 +58,7 @@ while True:
         print("Invalid input. Please type 'easy' or 'hard'.")
 
 secret_number = random.randint(0,max_number)
-print(secret_number)
+# print(secret_number)
 
 guess_counter = 0
 
