@@ -58,4 +58,4 @@ class BinarySearchTree:
 
 my_tree = BinarySearchTree()
 my_tree.insert(10)
-print(my_tree)
+print(my_tree.search(10))
