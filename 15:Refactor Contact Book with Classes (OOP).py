@@ -141,7 +141,7 @@ class Contact:
         self.email = email
 
     def __str__(self):
-        return f"Name: {self.name}, Phone: {self.phone_number}, Email {self.email}"
+        return f"Name: {self.name}, Phone: {self.phone_number}, Email: {self.email}"
     
 class ContactBook:
     def __init__(self):
@@ -159,7 +159,7 @@ class ContactBook:
 
 my_book = ContactBook()
 while True:
-    command = input("What would you like to do? ").strip().lower()
+    command = input("What would you like to do? Add(a), Lookup(l) or Quit(q)? ").strip().lower()
     if command == "quit" or command == "q":
         break
     elif command == "add" or command == "a":
@@ -191,7 +191,9 @@ while True:
         print("New contact added successfully! ")
 
     elif command == "lookup" or command == "l":
-        while True:
+        if not my_book.contacts:
+            print("Your contact book is empty. Please add a contact first.")
+        else:
             contact_lookup = input("Which name are you looking for? ")
             found_contact = my_book.find_contact(contact_lookup)
             if found_contact:
@@ -201,5 +203,5 @@ while True:
             else:
                 print("This contact does not exist in your contact book.")
     else:
-        print("That is NOT a valid command, try again. ")
+        print("That is NOT a valid command, you can only Add(a), Lookup(l) or Quit(q). Try again. ")
         continue
