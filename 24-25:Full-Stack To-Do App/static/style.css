@@ -1,0 +1,9 @@
+/* Basic styling to make the app look less plain. */
+
+body {
+  text-align: center;
+}
+
+#add-task-btn {
+    border-style: dotted;
+}
